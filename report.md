@@ -35,4 +35,6 @@ sekä
 Tämän perusteella tutkimus rajattiin käyttäjähallintaan liittyvään koodiin.
 
 # Cross-reference-analyysi
-Kun string löydettiin, Ghidrassa katsottiin sen XREFit, eli missä kohdissa ohjelmakoodia kyseistä stringiä käytetään.
+Kun string löydettiin, Ghidrassa katsoin sen XREFit, eli missä kohdissa ohjelmakoodia kyseistä stringiä käytetään.
+<img width="410" height="290" alt="Screenshot_2026-09-15_21-12-20" src="https://github.com/user-attachments/assets/5a911ff9-1440-4243-aa43-0b1ca411ed1b" />
+

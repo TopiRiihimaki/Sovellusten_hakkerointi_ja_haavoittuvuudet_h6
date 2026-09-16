@@ -151,6 +151,16 @@ Eli samaa salasanaan liittyvää funktiota käytetään useammassa ohjelmakohdas
 # Mikä oli tutkimuksen rajoitus
 Tutkimus jäi pääasiassa staattiseksi reverse engineeringiksi.
 
+# Mahdolliset turvallisuusriskit
+
+Firmware-analyysissä löytyi useita mahdollisia turvallisuusriskejä. Käyttäjien ja autentikointitietojen tallennus tapahtuu muun muassa rakenteissa /user_management/root ja /user_management/hub_auth. Näiden tietojen päätyminen hyökkääjälle voisi mahdollistaa autentikointiin liittyvien tietojen väärinkäytön.
+
+Root-tietueessa käsitellään myös ciphertext-arvoa, mutta sen tarkkaa suojaustapaa ei pystytty selvittämään. Lisäksi firmware sisältää useita salasanoihin liittyviä toimintoja, kuten gen_root_passwd ja general_password.
+
+Myös ds_read()- ja ds_advanced_write()-funktioiden käyttö olisi kiinnostava jatkotutkimuskohde, koska niiden kautta käyttäjätietoja luetaan ja kirjoitetaan.
+
+Näitä havaintoja ei kuitenkaan pystytty osoittamaan toimiviksi haavoittuvuuksiksi. Ne ovat mahdollisia hyökkäyspintoja, jotka vaatisivat tarkempaa tutkimusta.
+
 # Teköälyn käyttö
 Teköälyä on käytetty seuraavasti:
 - Auttanut käyttämään Ghidraa

@@ -38,3 +38,6 @@ Tämän perusteella tutkimus rajattiin käyttäjähallintaan liittyvään koodii
 Kun string löydettiin, Ghidrassa katsoin sen XREFit, eli missä kohdissa ohjelmakoodia kyseistä stringiä käytetään.
 <img width="410" height="290" alt="Screenshot_2026-09-15_21-12-20" src="https://github.com/user-attachments/assets/5a911ff9-1440-4243-aa43-0b1ca411ed1b" />
 
+<img width="410" height="403" alt="Screenshot_2026-09-15_21-14-35" src="https://github.com/user-attachments/assets/4d9220f3-a951-4dea-a5fe-7a90114fb3a9" />
+
+

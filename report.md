@@ -1,6 +1,6 @@
 # Tutkimuksen tavoite
 
-Tutkimuksen tavoitteena oli selvittää, millaisia turvallisuuteen liittyviä mekanismeja Tapo C200 V3 -kameran firmware sisältää.
+Tutkimuksen tavoitteena oli selvittää, millaisia turvallisuuteen liittyviä mekanismeja Tapo C200 V3 -kameran firmware sisältää ja olisiko niissä joitakin heikkouksia.
 
 Tutkimus tehtiin ensisijaisesti staattisena firmware-analyysinä.
 
@@ -8,6 +8,9 @@ Tutkimus tehtiin ensisijaisesti staattisena firmware-analyysinä.
 
 - Debian Linux
   * Analyysiympäristönä käytettiin Debiania. Komentoriviä käytettiin muun muassa firmware-tiedoston tarkastamiseen ja analyysityökalujen suorittamiseen. (Esim. file Tapo_C200v3_en_1.4.2.bin.dec)
+
+- tp-link-decrypt
+    
 - Ghidra
   * Ghidra oli hyvin hyödyllinen työkälu reverse engineeringissä. Käytin sitä esimerkiksi: avasin firmware/binaari, käytin decompileria, etsin merkkijonoja, etsin stringien cross-referencejä ja seurasin funktijokutsuja.
   Nämä asiat esimerkiksi löysin Ghidran avulla
